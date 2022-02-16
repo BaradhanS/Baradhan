@@ -13,10 +13,16 @@ public class Ktm implements Bike {
 		System.out.println("the speed is good");
 		
 	}
+	private void RoyalEnfield() {
+		System.out.println("Classic users");
+
+	}
 public static void main(String[] args) {
 	Ktm a = new Ktm ();
 	a.speed();
 	a.cost();
+	
+	a.RoyalEnfield();
 	
 }
 }
